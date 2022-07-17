@@ -11,7 +11,7 @@ export const TransactionSlice = createSlice({
 			let newState = [];
 			const localStorageTransactions = localStorage.getItem('transactions');
 			if (localStorageTransactions) {
-				JSON.parse(localStorageTransactions);
+				newState = JSON.parse(localStorageTransactions);
 			}
 			state.expense = newState;
 			state.balance = calculateBalance(newState);
