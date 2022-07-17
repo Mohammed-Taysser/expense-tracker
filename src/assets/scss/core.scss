@@ -1,0 +1,36 @@
+.app-wrapper {
+	text-transform: capitalize;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		center / cover url('../images/background/bg-cover.jpg');
+
+	.wrapper {
+		width: 100%;
+
+		.with-border-red {
+			border-bottom: 5px solid #ff1744;
+		}
+		.with-border-green {
+			border-bottom: 5px solid #00e676;
+		}
+
+		.income-tracker {
+			order: 1;
+			@media (max-width: 567px) {
+				order: 2;
+			}
+		}
+		.expense-tracker {
+			order: 3;
+		}
+		.main-tracker {
+			order: 2;
+			@media (max-width: 567px) {
+				order: 1;
+			}
+		}
+	}
+}
