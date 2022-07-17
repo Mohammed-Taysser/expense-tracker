@@ -1,0 +1,27 @@
+{
+	"incomeCategories": [
+		{ "type": "Business", "amount": 0, "color": "#123123" },
+		{ "type": "Investments", "amount": 0, "color": "#154731" },
+		{ "type": "Extra income", "amount": 0, "color": "#165f40" },
+		{ "type": "Deposits", "amount": 0, "color": "#16784f" },
+		{ "type": "Lottery", "amount": 0, "color": "#14915f" },
+		{ "type": "Gifts", "amount": 0, "color": "#10ac6e" },
+		{ "type": "Salary", "amount": 0, "color": "#0bc77e" },
+		{ "type": "Savings", "amount": 0, "color": "#04e38d" },
+		{ "type": "Rental income", "amount": 0, "color": "#00ff9d" }
+	],
+
+	"expenseCategories": [
+		{ "type": "Bills", "amount": 0, "color": "#b50d12" },
+		{ "type": "Car", "amount": 0, "color": "#bf2f1f" },
+		{ "type": "Clothes", "amount": 0, "color": "#c9452c" },
+		{ "type": "Travel", "amount": 0, "color": "#d3583a" },
+		{ "type": "Food", "amount": 0, "color": "#dc6a48" },
+		{ "type": "Shopping", "amount": 0, "color": "#e57c58" },
+		{ "type": "House", "amount": 0, "color": "#ee8d68" },
+		{ "type": "Entertainment", "amount": 0, "color": "#f79d79" },
+		{ "type": "Phone", "amount": 0, "color": "#ffae8a" },
+		{ "type": "Pets", "amount": 0, "color": "#cc474b" },
+		{ "type": "Other", "amount": 0, "color": "#f55b5f" }
+	]
+}
