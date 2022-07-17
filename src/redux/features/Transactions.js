@@ -8,8 +8,11 @@ export const TransactionSlice = createSlice({
 	},
 	reducers: {
 		initTransaction: (state) => {
-			const newState =
-				JSON.parse(localStorage.getItem('transactions') || '') || [];
+			let newState = [];
+			const localStorageTransactions = localStorage.getItem('transactions');
+			if (localStorageTransactions) {
+				JSON.parse(localStorageTransactions);
+			}
 			state.expense = newState;
 			state.balance = calculateBalance(newState);
 		},
